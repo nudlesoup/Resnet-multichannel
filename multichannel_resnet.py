@@ -4,7 +4,7 @@ from functools import partial
 
 resnet_models = {18: torchvision.models.resnet18,
                  34: torchvision.models.resnet34,
-                 50: torchvision.models.resnet18,
+                 50: torchvision.models.resnet50,
                  101: torchvision.models.resnet101,
                  152: torchvision.models.resnet152}
 
